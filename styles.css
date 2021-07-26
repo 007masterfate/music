@@ -1,0 +1,70 @@
+body{
+    overflow-x: hidden;
+}
+a ,a:hover{
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    margin-left: 1%;
+    font-size: 1.65em;
+}
+a:hover{
+    border-bottom:2px solid white ;
+}
+h1{
+    display: inline-block;
+    padding-right: 60%;
+    padding-left: 63px;
+    
+    font-size: 3em;
+}
+hr{
+    width: 90%;
+    background-color: white;
+}
+/* ============================================ */
+/* declared classes startes here */
+
+/* part1 */
+.part1{
+    color:white;
+    background-color: transparent;
+    z-index: 1;
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Allura', cursive;
+}
+
+
+.bgimg{
+
+  background-image: url("bg.jpeg");
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+/* part2 */
+.first{
+    width: 35%;
+    margin-left: 32%;
+    margin-bottom: 20px;
+}
+.second{
+    width: 35%;
+    margin-left: 15%;
+    margin-right: -16%;
+    margin-bottom: 20px;
+}
+.third{
+    width: 33%;
+    margin-bottom: 10vh;
+}
